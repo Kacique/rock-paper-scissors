@@ -1,0 +1,52 @@
+html{
+  background-image: url("https://ssb.wiki.gallery/images/thumb/1/19/SSBU-Boxing_Ring_1.png/1200px-SSBU-Boxing_Ring_1.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body{
+  color: aliceblue;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h1{
+  padding: 0;
+}
+
+h2{
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.score{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header p{
+  font-size: 48px;
+}
+
+.button-container{
+  margin-top: 30px;
+}
+
+.card{
+  width: 150px;
+  height: 150px;
+  font-size: 80px;
+}

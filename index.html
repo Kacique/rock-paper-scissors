@@ -5,20 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
     <title>Rock! Paper!! Scissors!!!</title>
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <h1>The Fight of The Century!!</h1>
-        <h2>Human Vs Machine</h2>
-        <p>💁‍♂️</p>
-        <p>🤖</p>
+        <h1>The Fight Of The Century!!</h1>
+        <h2>Human vs Machine</h2>
+        <h3>Score:</h3>
+        <div class="score">
+          <p>💁‍♂️</p>
+          <p id="human"></p>
+          <p id="machine"></p>
+          <p>🤖</p>
+        </div>
+      </div>
+      <div class="resultDiv">
+        <h2 id="result"></h2>
       </div>
       <div class="button-container">
-        <button id="ROCK">🪨</button>
-        <button id="PAPER">📃</button>
-        <button id="SCISSORS">✂️</button>
+        <button class="card" id="ROCK">🪨</button>
+        <button class="card" id="PAPER">📃</button>
+        <button class="card" id="SCISSORS">✂️</button>
       </div>
     </div>
 
